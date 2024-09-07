@@ -1,4 +1,4 @@
-import Character from './Character';
+import Character from './Character.js';
 
 class Zombie extends Character {
   constructor(name) {
