@@ -1,9 +1,11 @@
-import Character from '../Character.Js';
+import Character from './Character';
 
-export default class Zombie extends Character {
+class Zombie extends Character {
   constructor(name) {
     super(name, 'Zombie');
     this.attack = 40;
     this.defence = 10;
   }
 }
+
+export default Zombie;
