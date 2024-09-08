@@ -1,5 +1,9 @@
 module.exports = {
-  roots: ['<rootDir>/tests'], // Указать корневую директорию для тестов
+  testMatch: ['src/js/tests/*.test.js'],
+ // transform: {
+ //   '^.+\\.js$': 'babel-jest',
+ // },
+  roots: ['<rootDir>/src/js/tests'], // Указать корневую директорию для тестов
   testEnvironment: 'node', // Указать тестовую среду
   moduleDirectories: ['node_modules', 'src'], // Указать места для поиска модулей
   moduleNameMapper: {
