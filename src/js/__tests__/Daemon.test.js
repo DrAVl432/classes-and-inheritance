@@ -1,4 +1,4 @@
-import Daemon from '../src/models/Daemon';
+import Daemon from '../Daemon';
 
 test('Создание Daemon с корректными параметрами', () => {
   const correct = {

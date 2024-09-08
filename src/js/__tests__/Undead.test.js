@@ -1,4 +1,4 @@
-import Undead from '../src/models/Undead';
+import Undead from '../Undead';
 
 test('Создание Undead с корректными параметрами', () => {
   const correct = {

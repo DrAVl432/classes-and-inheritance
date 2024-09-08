@@ -1,4 +1,4 @@
-import Magician from '../src/models/Magician';
+import Magician from '../Magician';
 
 test('Создание Magician с корректными параметрами', () => {
   const correct = {

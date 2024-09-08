@@ -1,4 +1,4 @@
-import Character from './src/Character';
+import Character from '../Character';
 
 test('Создание персонажа с корректными параметрами', () => {
   const character = new Character('John', 'Bowerman');

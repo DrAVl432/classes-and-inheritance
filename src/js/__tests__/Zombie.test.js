@@ -1,4 +1,4 @@
-import Zombie from '../src/models/Zombie';
+import Zombie from '../Zombie';
 
 test('Создание Zombie с корректными параметрами', () => {
   const correct = {

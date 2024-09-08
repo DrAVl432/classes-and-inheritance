@@ -1,4 +1,4 @@
-import Bowerman from '../src/models/Bowerman';
+import Bowerman from '../Bowerman';
 
 test('Создание Bowerman с корректными параметрами', () => {
   const correct = {

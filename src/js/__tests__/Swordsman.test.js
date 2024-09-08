@@ -1,4 +1,4 @@
-import Swordsman from '../src/models/Swordsman';
+import Swordsman from '../Swordsman';
 
 test('Создание Swordsman с корректными параметрами', () => {
   const correct = {
